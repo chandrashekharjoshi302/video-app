@@ -48,4 +48,5 @@ app.get("/users", (req, res) => {
   return res.json(Array.from(users));
 });
 
+console.log("hello");
 server.listen(PORT, () => console.log(`Server started at PORT:${PORT}`));
